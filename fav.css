@@ -1,27 +1,13 @@
 .header{ 
     grid-area: header; 
     background-color: #F3CDFA;
-    text-align: center;
-    font-size: 25px;
-    color: #FF008A;
 }
 .navBar{ grid-area: navbar; }
-.item2 { 
-    grid-area: left;
-    
-}
-.item3 { 
-    grid-area: main;
-}
-.item4 { 
-    grid-area: right;
-}
-.item5 { 
-    grid-area: left2;
-}
-.item6 { 
-    grid-area: main2
-}
+.item2 { grid-area: left;}
+.item3 { grid-area: main;}
+.item4 { grid-area: right;}
+.item5 { grid-area: left2;}
+.item6 { grid-area: main2}
 .item7 { 
     grid-area: right2;
     margin-right: 30px;
@@ -40,12 +26,11 @@
 }
 .grid-container > div {
     background-color: #F3CDFA;
-
     font-size: 30px;
 }
 ul{
     grid-area: navbar;
-    padding: 45px;
+    padding: 60px;
     margin: 0;
     overflow: hidden;
     background-color: #F3CDFA;
@@ -57,7 +42,6 @@ li{
 }
 li:last-child {
     border-right: none;
-    font-size: 50px;
   }
 li a{
     display: block;
@@ -69,12 +53,14 @@ li a{
 }
 li a:hover:not(.active) {
     background-color: #FFBAE3;
-    box-shadow: 2px 2px 1px 1px #bbb;
+    box-shadow: 3px 3px 1px 1px rgb(160, 158, 158);
+    border-radius: 3px;
 }
 .active {
     background-color: #FFBAE3;
-    box-shadow: 2px 2px 1px 1px #bbb;
-  }
+    box-shadow: 3px 3px 1px 1px rgb(160, 158, 158);
+    border-radius: 3px;
+}
 [class*="item"]{
     border-radius: 10px;
     font-size: 5px;
